@@ -1,0 +1,38 @@
+package metodosex1;
+
+import java.util.Scanner;
+
+class calcular{
+        public static int produto( int num1, int num2, int num3){
+        int d = num1 * num2 * num3;
+        return(d);
+    }
+}
+
+public class MetodosEx1 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        calcular cal = new calcular();
+        
+        int a, b, c;
+        int produto;
+        
+        System.out.println("Digite um valor para N1: ");
+        a = entrada.nextInt();
+        
+        System.out.println("Digite um valor para N2: ");
+        b = entrada.nextInt();
+        
+        System.out.println("Digite um valor para N3: ");
+        c = entrada.nextInt();
+        
+        
+        /*envia os parametros, na ordem digitada, para o metodo*/
+        produto = cal.produto(a, b, c);
+        
+        System.out.println("produto: " + produto);
+        
+    }
+    
+}
