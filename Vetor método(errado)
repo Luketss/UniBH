@@ -1,0 +1,33 @@
+package metodosex2;
+
+import java.util.Scanner;
+
+public class MetodosEx2 {
+    
+    public static void apresentaVetor(int vetor){
+    
+        for( int i = 0; i < 1; i++){
+            System.out.println("O valor da posição é " + vetor);
+        }
+        
+    }
+    
+  
+    public static void main(String[] args) {
+        
+        Scanner Entrada = new Scanner(System.in);
+        
+        int vetorNum[] = new int[5];
+        int resultado[] = new int[5];
+        
+        for(int i = 0; i < 5; i++){
+            System.out.println("Digite um valor para a posição " + i + " do vetor");
+            vetorNum[i] = Entrada.nextInt();
+            apresentaVetor(vetorNum[i]);
+        }
+        
+        
+        
+    }
+    
+}
