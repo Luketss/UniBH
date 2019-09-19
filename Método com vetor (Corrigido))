@@ -1,0 +1,23 @@
+public static void apresentaVetor(int[] vetorNum){
+    
+        for( int i = 0; i < 5; i++){
+            System.out.println("O valor da posição é " + vetorNum[i]);
+        }
+        
+    }
+    
+  
+    public static void main(String[] args) {
+        
+        Scanner Entrada = new Scanner(System.in);
+        
+        int vetorNum[] = new int[5];
+        
+        for(int i = 0; i < 5; i++){
+            System.out.println("Digite um valor para a posição " + i + " do vetor");
+            vetorNum[i] = Entrada.nextInt();
+            
+        }
+        
+        apresentaVetor(vetorNum);
+        
