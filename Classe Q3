@@ -1,0 +1,37 @@
+package classexobjetoex1;
+
+
+public class Aluno {
+    public String nome;
+    public String sexo;
+    public int ra;
+    public String endereco;
+    public String email;
+    public int idade;
+    
+    public Aluno (String nomeParametro, String sexoParametro, int raParametro, String enderecoParametro, String emailsParametro, int idadeParametro){
+        this.nome = nomeParametro;
+        this.sexo = sexoParametro;
+        this.ra = raParametro;
+        this.endereco = enderecoParametro;
+        this.idade = idadeParametro;
+    }
+    
+}
+
+
+package classexobjetoex1;
+
+
+public class ClasseXobjetoEx1 {
+
+    
+    public static void main(String[] args) {
+        
+        Aluno A1 = new Aluno("Lucas", "M", 11916079, "Rua Poços de Caldas", "lucas@gmail.com", 21);
+        Aluno A2 = new Aluno("Bruno", "M", 11916079, "Rua Venda Nova", "Samuel@gmail.com", 25);
+        Aluno A3 = new Aluno("Samuel", "M", 11916079, "Rua Outra Cidade", "Bruno@gmail.com", 20);
+        
+    }
+    
+}
