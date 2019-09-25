@@ -1,0 +1,40 @@
+package classexobjetoex1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+public class ClasseXobjetoEx1 {
+
+    
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+        String nome, sexo, endereco, email;
+        int ra, idade;
+        
+        Aluno[] aluno = new Aluno[10000];
+        
+        for ( int i = 0; i < 5; i++ ){
+            System.out.println("Digite o nome: ");
+            nome = entrada.nextLine();entrada.nextLine();
+
+            System.out.println("Digite o sexo: ");
+            sexo = entrada.nextLine();
+            
+            System.out.println("Digite o endereco: ");
+            endereco = entrada.nextLine();
+            
+            System.out.println("Digite o email: ");
+            email = entrada.nextLine();
+            
+            System.out.println("Digite o ra: ");
+            ra = entrada.nextInt();
+            
+            System.out.println("Digite o idade: ");
+            idade = entrada.nextInt();
+            
+            aluno[i] = new Aluno (nome, sexo, ra, endereco, email, idade);
+        }
+        
+    }
+    
+}
