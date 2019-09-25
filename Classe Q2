@@ -1,0 +1,19 @@
+package classexobjetoex1;
+
+public class mundoReal {
+    
+    public String nomeCarro;
+    public String placaCarro;
+    public int numChassi;
+    public String modeloCarro;
+    public int preco;
+    
+    public mundoReal (String nomeCarroParametro, String placaCarroParametro, int numChassiParametro, String modeloCarroParametro, int precoParametro) {
+    
+        this.nomeCarro = nomeCarroParametro;
+        this.placaCarro = placaCarroParametro;
+        this.numChassi = numChassiParametro;
+        this.modeloCarro = modeloCarroParametro;
+        this.preco = precoParametro;
+    }
+}
