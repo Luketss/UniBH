@@ -1,0 +1,20 @@
+package classexobjetoex1;
+
+
+public class Aluno {
+    public String nome;
+    public String sexo;
+    public int ra;
+    public String endereco;
+    public String email;
+    public int idade;
+    
+    public Aluno (String nomeParametro, String sexoParametro, int raParametro, String enderecoParametro, String emailsParametro, int idadeParametro){
+        this.nome = nomeParametro;
+        this.sexo = sexoParametro;
+        this.ra = raParametro;
+        this.endereco = enderecoParametro;
+        this.idade = idadeParametro;
+    }
+    
+}
