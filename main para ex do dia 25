@@ -1,0 +1,32 @@
+package projetoaula25092019;
+
+import java.util.Scanner;
+
+public class main {
+    
+    public static void main(String[] args) {
+        
+    Scanner entrada = new Scanner(System.in);
+    Disciplina dispa = new Disciplina ("Teoria 1", 80);
+    Disciplina disp2 = new Disciplina ("Matéria2", 100);
+    Disciplina dis[] = new Disciplina[2];
+    
+    Endereco endA = new Endereco ("bairro", "rua" , 213);
+    
+    Aluno a1 = new Aluno("Lucas", dis, endA);
+    
+    System.out.println("Digite o nome do aluno: ");
+    a1.nome = entrada.nextLine();
+    
+    System.out.println("Digite a descricao: ");
+    a1.dis[i].descricao = entrada.nextLine();
+    
+    System.out.println("Digite a nota do aluno: ");
+    a1.dis[i].nota = entrada.nextInt();
+    
+        System.out.println("Valor alocado no nome: " + a1.nome);
+        System.out.println(a1.dis[0].descricao);
+        
+    }
+    
+}
