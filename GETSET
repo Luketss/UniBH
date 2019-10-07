@@ -1,0 +1,18 @@
+public class NewClass {
+    
+    private int matricula;
+    private String nome;
+    
+    public NewClass(int matriculaPar, String nomePar){
+        this.matricula = matriculaPar;
+        this.nome = nomePar;
+    }
+    
+    public int getMatricula(){
+        return(this.matricula);
+    }
+    
+    public void setMatricula(int matriculaPar){
+        this.matricula = matriculaPar;
+    }
+}
